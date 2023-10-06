@@ -7,7 +7,7 @@ public class TestCases extends BaseTest{
 	
 	@Test
 	public void loginpage() {
-		LoginPage page = new LoginPages(driver);	
+		LoginPage page = new LoginPage(driver);	
 		page.username("standard_user");
 		page.password("secret_sauce");
 		page.btn_login();

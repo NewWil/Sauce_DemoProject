@@ -15,7 +15,7 @@ WebDriver driver;
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
 
-			System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Browsers\\chromedriver-win64/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 			driver = new ChromeDriver(options);
 
 			driver.manage().window().maximize();

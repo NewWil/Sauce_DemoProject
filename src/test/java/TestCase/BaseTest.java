@@ -7,6 +7,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import Objects.LoginPage;
+
 public class BaseTest {
 WebDriver driver;
 	
@@ -20,6 +22,7 @@ WebDriver driver;
 
 			driver.manage().window().maximize();
 			driver.get("https://www.saucedemo.com/");
+			
 			
 	}
 		

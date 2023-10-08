@@ -9,7 +9,7 @@ public class LoginPage {
 	By username = By.id("user-name");
 	By password = By.id("password");
 	By btn_login = By.id("login-button");
-	
+	By LoginErrorMessage = By.xpath("//h3[contains(text(), 'Epic sadface: Username and password do not match any user in this service')]");
 	public LoginPage(WebDriver driver){
 		this.driver = driver;
 	}
@@ -27,6 +27,8 @@ public class LoginPage {
 		driver.findElement(btn_login).click();
 	}
 
-
+	public String LoginErrorMessage() {
+		return driver.findElement(LoginErrorMessage).getText();
+	}
 
 }

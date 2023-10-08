@@ -8,12 +8,11 @@ public class CheckoutDataSet {
 
 	
 	///--DATA SET FOR LOGIN FUNCTIONALTY TESTING--///
-	@DataProvider(name = "dataset1")
+	@DataProvider(name = "CheckoutDataset")
 	public Object[][] dataset(Method m) {
 
 		Object[][] testdata = null;
-
-		if (m.getName().equals("Checkout")) {
+		
 			testdata = new Object[][] { { "Wilbert", "Lacuesta", "2306" }, 
 					{ "", "Lacuesta", "2306"},
 					{ "Wilbert", "", "2306" },
@@ -23,7 +22,7 @@ public class CheckoutDataSet {
 					{ "Wilbert", "", "" },
 
 			};
-		}
+	
 		return testdata;
 	}
 }

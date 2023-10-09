@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import Objects.LoginPage;
-
+import Objects.FilterObjects;
 public class FilterPage extends BaseTest {
 
 	@BeforeMethod
@@ -22,11 +22,13 @@ public class FilterPage extends BaseTest {
 		page.btn_login();
 	}
 
-																	/// --TEST CASE SCENARIO 5: SORTING EVERY PRODUCTS--//
+																/// --TEST CASE SCENARIO 5: SORTING EVERY PRODUCTS--//
 												/// --VERIFY IF THE PRODUCT FILTER IS DISPLAYING ACCURATE RESULTS IN ASCENDING PRICE ORDER--///
 
 	@Test(groups = "Filter")
-	public void ascendingPrice(){
+	public void AscendingPrice(){
+		
+		FilterObjects filter = new FilterObjects(driver);
 
 		List<WebElement> beforeFilterPrice = driver.findElements(By.cssSelector("div[class='inventory_item_price']"));
 
@@ -38,7 +40,7 @@ public class FilterPage extends BaseTest {
 		}
 
 		// Filter the value
-		Select select = new Select(driver.findElement(By.cssSelector("select[class='product_sort_container']")));
+		Select select = filter.Filter();
 		select.selectByIndex(2);
 
 		// after filter
@@ -72,7 +74,8 @@ public class FilterPage extends BaseTest {
 		}
 
 		// Filter the value
-		Select select = new Select(driver.findElement(By.cssSelector("select[class='product_sort_container']")));
+		FilterObjects filter = new FilterObjects(driver);
+		Select select = filter.Filter();
 		select.selectByIndex(3);
 
 		// after filter
@@ -110,7 +113,8 @@ public class FilterPage extends BaseTest {
 		}
 
 		// Click Z to A option
-		Select select = new Select(driver.findElement(By.cssSelector("select[class='product_sort_container']")));
+		FilterObjects filter = new FilterObjects(driver);
+		Select select = filter.Filter();
 		select.selectByIndex(1);
 
 		// Store the product after sorting
@@ -146,7 +150,8 @@ public class FilterPage extends BaseTest {
 		}
 
 		// Click Z to A option
-		Select select = new Select(driver.findElement(By.cssSelector("select[class='product_sort_container']")));
+		FilterObjects filter = new FilterObjects(driver);
+		Select select = filter.Filter();
 		select.selectByIndex(0);
 
 		// Store the product after sorting

@@ -14,9 +14,11 @@ public class LoginPageVerify extends BaseTest{
 	public void LoginVerify(String username, String password) {
 		
 		LoginPage page = new LoginPage(driver);	
-		
+		//Input Username
 		page.username(username);
+		//Input Password
 		page.password(password);
+		//CLick Login Button
 		page.btn_login();
 		
 

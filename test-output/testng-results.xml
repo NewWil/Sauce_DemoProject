@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-08T21:59:56 SGT" name="Default suite" finished-at="2023-10-08T22:00:28 SGT" duration-ms="32027">
+  <suite started-at="2023-10-09T18:29:48 SGT" name="Default suite" finished-at="2023-10-09T18:30:21 SGT" duration-ms="33143">
     <groups>
+      <group name="Filter">
+        <method signature="FilterPage.DescendingPrice()[pri:0, instance:TestCase.FilterPage@253c1256]" name="DescendingPrice" class="TestCase.FilterPage"/>
+        <method signature="FilterPage.ascendingPrice()[pri:0, instance:TestCase.FilterPage@253c1256]" name="ascendingPrice" class="TestCase.FilterPage"/>
+        <method signature="FilterPage.sortAtoZ()[pri:0, instance:TestCase.FilterPage@253c1256]" name="sortAtoZ" class="TestCase.FilterPage"/>
+        <method signature="FilterPage.sortZtoA()[pri:0, instance:TestCase.FilterPage@253c1256]" name="sortZtoA" class="TestCase.FilterPage"/>
+      </group> <!-- Filter -->
     </groups>
-    <test started-at="2023-10-08T21:59:56 SGT" name="Default test" finished-at="2023-10-08T22:00:28 SGT" duration-ms="32027">
-      <class name="TestCase.LoginPageVerify">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T21:59:56 SGT" name="setup" finished-at="2023-10-08T21:59:58 SGT" duration-ms="2268" status="PASS">
+    <test started-at="2023-10-09T18:29:48 SGT" name="Default test" finished-at="2023-10-09T18:30:21 SGT" duration-ms="33143">
+      <class name="TestCase.AddtoCartPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.AddtoCartPage@1bf0f6f6]" started-at="2023-10-09T18:29:48 SGT" name="setup" finished-at="2023-10-09T18:29:51 SGT" duration-ms="2633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginVerify(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T21:59:58 SGT" name="LoginVerify" data-provider="LoginDataset" finished-at="2023-10-08T21:59:58 SGT" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.AddtoCartPage@1bf0f6f6]" started-at="2023-10-09T18:29:51 SGT" name="loginpage" finished-at="2023-10-09T18:29:51 SGT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="Addtocart()[pri:0, instance:TestCase.AddtoCartPage@1bf0f6f6]" started-at="2023-10-09T18:29:51 SGT" name="Addtocart" finished-at="2023-10-09T18:29:51 SGT" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addtocart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.AddtoCartPage@1bf0f6f6]" started-at="2023-10-09T18:29:51 SGT" name="teardown" finished-at="2023-10-09T18:29:51 SGT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.AddtoCartPage@1bf0f6f6]" started-at="2023-10-09T18:29:51 SGT" name="setup" finished-at="2023-10-09T18:29:52 SGT" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.AddtoCartPage@1bf0f6f6]" started-at="2023-10-09T18:29:52 SGT" name="loginpage" finished-at="2023-10-09T18:29:53 SGT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="RemovedProductsFromCart()[pri:0, instance:TestCase.AddtoCartPage@1bf0f6f6]" started-at="2023-10-09T18:29:53 SGT" name="RemovedProductsFromCart" finished-at="2023-10-09T18:29:53 SGT" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemovedProductsFromCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.AddtoCartPage@1bf0f6f6]" started-at="2023-10-09T18:29:53 SGT" name="teardown" finished-at="2023-10-09T18:29:53 SGT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.AddtoCartPage -->
+      <class name="TestCase.LoginPageVerify">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:53 SGT" name="setup" finished-at="2023-10-09T18:29:55 SGT" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginVerify(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:55 SGT" name="LoginVerify" data-provider="LoginDataset" finished-at="2023-10-09T18:29:55 SGT" duration-ms="185" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginVerify -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T21:59:58 SGT" name="teardown" finished-at="2023-10-08T21:59:59 SGT" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:55 SGT" name="teardown" finished-at="2023-10-09T18:29:55 SGT" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T21:59:59 SGT" name="setup" finished-at="2023-10-08T22:00:00 SGT" duration-ms="1156" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:55 SGT" name="setup" finished-at="2023-10-09T18:29:56 SGT" duration-ms="1069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginVerify(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T22:00:00 SGT" name="LoginVerify" data-provider="LoginDataset" finished-at="2023-10-08T22:00:00 SGT" duration-ms="175" status="PASS">
+        <test-method signature="LoginVerify(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:56 SGT" name="LoginVerify" data-provider="LoginDataset" finished-at="2023-10-09T18:29:56 SGT" duration-ms="172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +91,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginVerify -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T22:00:00 SGT" name="teardown" finished-at="2023-10-08T22:00:00 SGT" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:56 SGT" name="teardown" finished-at="2023-10-09T18:29:56 SGT" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T22:00:00 SGT" name="setup" finished-at="2023-10-08T22:00:01 SGT" duration-ms="1070" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:56 SGT" name="setup" finished-at="2023-10-09T18:29:57 SGT" duration-ms="1104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginVerify(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T22:00:01 SGT" name="LoginVerify" data-provider="LoginDataset" finished-at="2023-10-08T22:00:01 SGT" duration-ms="184" status="PASS">
+        <test-method signature="LoginVerify(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:57 SGT" name="LoginVerify" data-provider="LoginDataset" finished-at="2023-10-09T18:29:58 SGT" duration-ms="171" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,15 +115,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginVerify -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T22:00:01 SGT" name="teardown" finished-at="2023-10-08T22:00:01 SGT" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:58 SGT" name="teardown" finished-at="2023-10-09T18:29:58 SGT" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T22:00:01 SGT" name="setup" finished-at="2023-10-08T22:00:02 SGT" duration-ms="1076" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:58 SGT" name="setup" finished-at="2023-10-09T18:29:59 SGT" duration-ms="1019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginVerify(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T22:00:02 SGT" name="LoginVerify" data-provider="LoginDataset" finished-at="2023-10-08T22:00:03 SGT" duration-ms="174" status="PASS">
+        <test-method signature="LoginVerify(java.lang.String,java.lang.String)[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:59 SGT" name="LoginVerify" data-provider="LoginDataset" finished-at="2023-10-09T18:29:59 SGT" duration-ms="167" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,37 +139,53 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginVerify -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.LoginPageVerify@15051a0]" started-at="2023-10-08T22:00:03 SGT" name="teardown" finished-at="2023-10-08T22:00:03 SGT" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.LoginPageVerify@347bdeef]" started-at="2023-10-09T18:29:59 SGT" name="teardown" finished-at="2023-10-09T18:29:59 SGT" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestCase.LoginPageVerify -->
       <class name="TestCase.CheckoutPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:03 SGT" name="setup" finished-at="2023-10-08T22:00:04 SGT" duration-ms="1076" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:29:59 SGT" name="setup" finished-at="2023-10-09T18:30:00 SGT" duration-ms="1188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:04 SGT" name="loginpage" finished-at="2023-10-08T22:00:04 SGT" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:00 SGT" name="loginpage" finished-at="2023-10-09T18:30:00 SGT" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method signature="CancelButton()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:04 SGT" name="CancelButton" finished-at="2023-10-08T22:00:04 SGT" duration-ms="310" status="PASS">
+        <test-method signature="BackHome()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:00 SGT" name="BackHome" finished-at="2023-10-09T18:30:01 SGT" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackHome -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:01 SGT" name="teardown" finished-at="2023-10-09T18:30:01 SGT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:01 SGT" name="setup" finished-at="2023-10-09T18:30:02 SGT" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:02 SGT" name="loginpage" finished-at="2023-10-09T18:30:02 SGT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="CancelButton()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:02 SGT" name="CancelButton" finished-at="2023-10-09T18:30:02 SGT" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CancelButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:04 SGT" name="teardown" finished-at="2023-10-08T22:00:04 SGT" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:02 SGT" name="teardown" finished-at="2023-10-09T18:30:02 SGT" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:04 SGT" name="setup" finished-at="2023-10-08T22:00:06 SGT" duration-ms="1174" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:02 SGT" name="setup" finished-at="2023-10-09T18:30:03 SGT" duration-ms="1002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:06 SGT" name="loginpage" finished-at="2023-10-08T22:00:06 SGT" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:03 SGT" name="loginpage" finished-at="2023-10-09T18:30:04 SGT" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:06 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:06 SGT" duration-ms="268" status="PASS">
+        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:04 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-09T18:30:04 SGT" duration-ms="278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,19 +206,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:06 SGT" name="teardown" finished-at="2023-10-08T22:00:06 SGT" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:04 SGT" name="teardown" finished-at="2023-10-09T18:30:04 SGT" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:06 SGT" name="setup" finished-at="2023-10-08T22:00:07 SGT" duration-ms="1112" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:04 SGT" name="setup" finished-at="2023-10-09T18:30:05 SGT" duration-ms="1068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:07 SGT" name="loginpage" finished-at="2023-10-08T22:00:07 SGT" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:05 SGT" name="loginpage" finished-at="2023-10-09T18:30:05 SGT" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:07 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:08 SGT" duration-ms="247" status="PASS">
+        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:05 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-09T18:30:06 SGT" duration-ms="247" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,19 +239,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:08 SGT" name="teardown" finished-at="2023-10-08T22:00:08 SGT" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:06 SGT" name="teardown" finished-at="2023-10-09T18:30:06 SGT" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:08 SGT" name="setup" finished-at="2023-10-08T22:00:09 SGT" duration-ms="1118" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:06 SGT" name="setup" finished-at="2023-10-09T18:30:07 SGT" duration-ms="1037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:09 SGT" name="loginpage" finished-at="2023-10-08T22:00:09 SGT" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:07 SGT" name="loginpage" finished-at="2023-10-09T18:30:07 SGT" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:09 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:09 SGT" duration-ms="249" status="PASS">
+        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:07 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-09T18:30:07 SGT" duration-ms="244" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,19 +272,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:09 SGT" name="teardown" finished-at="2023-10-08T22:00:09 SGT" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:07 SGT" name="teardown" finished-at="2023-10-09T18:30:07 SGT" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:09 SGT" name="setup" finished-at="2023-10-08T22:00:11 SGT" duration-ms="1078" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:07 SGT" name="setup" finished-at="2023-10-09T18:30:08 SGT" duration-ms="1048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:11 SGT" name="loginpage" finished-at="2023-10-08T22:00:11 SGT" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:08 SGT" name="loginpage" finished-at="2023-10-09T18:30:08 SGT" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:11 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:11 SGT" duration-ms="255" status="PASS">
+        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:08 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-09T18:30:09 SGT" duration-ms="249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -249,19 +305,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:11 SGT" name="teardown" finished-at="2023-10-08T22:00:11 SGT" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:09 SGT" name="teardown" finished-at="2023-10-09T18:30:09 SGT" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:11 SGT" name="setup" finished-at="2023-10-08T22:00:12 SGT" duration-ms="1167" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:09 SGT" name="setup" finished-at="2023-10-09T18:30:10 SGT" duration-ms="1051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:12 SGT" name="loginpage" finished-at="2023-10-08T22:00:12 SGT" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:10 SGT" name="loginpage" finished-at="2023-10-09T18:30:10 SGT" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:12 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:13 SGT" duration-ms="229" status="PASS">
+        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:10 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-09T18:30:10 SGT" duration-ms="225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -282,19 +338,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:13 SGT" name="teardown" finished-at="2023-10-08T22:00:13 SGT" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:10 SGT" name="teardown" finished-at="2023-10-09T18:30:10 SGT" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:13 SGT" name="setup" finished-at="2023-10-08T22:00:14 SGT" duration-ms="1096" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:10 SGT" name="setup" finished-at="2023-10-09T18:30:11 SGT" duration-ms="989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:14 SGT" name="loginpage" finished-at="2023-10-08T22:00:14 SGT" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:11 SGT" name="loginpage" finished-at="2023-10-09T18:30:12 SGT" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:14 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:14 SGT" duration-ms="237" status="PASS">
+        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:12 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-09T18:30:12 SGT" duration-ms="241" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -315,19 +371,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:14 SGT" name="teardown" finished-at="2023-10-08T22:00:14 SGT" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:12 SGT" name="teardown" finished-at="2023-10-09T18:30:12 SGT" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:14 SGT" name="setup" finished-at="2023-10-08T22:00:16 SGT" duration-ms="1161" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:12 SGT" name="setup" finished-at="2023-10-09T18:30:13 SGT" duration-ms="1001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:16 SGT" name="loginpage" finished-at="2023-10-08T22:00:16 SGT" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:13 SGT" name="loginpage" finished-at="2023-10-09T18:30:13 SGT" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:16 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:16 SGT" duration-ms="239" status="PASS">
+        <test-method signature="Checkout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:13 SGT" name="Checkout" data-provider="CheckoutDataset" finished-at="2023-10-09T18:30:13 SGT" duration-ms="238" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -348,242 +404,93 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:16 SGT" name="teardown" finished-at="2023-10-08T22:00:16 SGT" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:13 SGT" name="teardown" finished-at="2023-10-09T18:30:13 SGT" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:16 SGT" name="setup" finished-at="2023-10-08T22:00:17 SGT" duration-ms="1127" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:13 SGT" name="setup" finished-at="2023-10-09T18:30:15 SGT" duration-ms="1073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:17 SGT" name="loginpage" finished-at="2023-10-08T22:00:17 SGT" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:15 SGT" name="loginpage" finished-at="2023-10-09T18:30:15 SGT" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method signature="FinishButton(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:17 SGT" name="FinishButton" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:18 SGT" duration-ms="297" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Wilbert]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lacuesta]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2306]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="FinishButton()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:15 SGT" name="FinishButton" finished-at="2023-10-09T18:30:15 SGT" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FinishButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:18 SGT" name="teardown" finished-at="2023-10-08T22:00:18 SGT" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:18 SGT" name="setup" finished-at="2023-10-08T22:00:19 SGT" duration-ms="1096" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:19 SGT" name="loginpage" finished-at="2023-10-08T22:00:19 SGT" duration-ms="177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method signature="FinishButton(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:19 SGT" name="FinishButton" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:19 SGT" duration-ms="297" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lacuesta]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2306]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FinishButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:19 SGT" name="teardown" finished-at="2023-10-08T22:00:19 SGT" duration-ms="98" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:19 SGT" name="setup" finished-at="2023-10-08T22:00:21 SGT" duration-ms="1065" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:21 SGT" name="loginpage" finished-at="2023-10-08T22:00:21 SGT" duration-ms="174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method signature="FinishButton(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:21 SGT" name="FinishButton" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:21 SGT" duration-ms="289" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Wilbert]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2306]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FinishButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:21 SGT" name="teardown" finished-at="2023-10-08T22:00:21 SGT" duration-ms="107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:21 SGT" name="setup" finished-at="2023-10-08T22:00:22 SGT" duration-ms="1183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:22 SGT" name="loginpage" finished-at="2023-10-08T22:00:22 SGT" duration-ms="172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method signature="FinishButton(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:22 SGT" name="FinishButton" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:23 SGT" duration-ms="287" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Wilbert]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lacuesta]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FinishButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:23 SGT" name="teardown" finished-at="2023-10-08T22:00:23 SGT" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:23 SGT" name="setup" finished-at="2023-10-08T22:00:24 SGT" duration-ms="1142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:24 SGT" name="loginpage" finished-at="2023-10-08T22:00:24 SGT" duration-ms="181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method signature="FinishButton(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:24 SGT" name="FinishButton" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:24 SGT" duration-ms="296" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[2306]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FinishButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:24 SGT" name="teardown" finished-at="2023-10-08T22:00:25 SGT" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:25 SGT" name="setup" finished-at="2023-10-08T22:00:26 SGT" duration-ms="1123" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:26 SGT" name="loginpage" finished-at="2023-10-08T22:00:26 SGT" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method signature="FinishButton(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:26 SGT" name="FinishButton" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:26 SGT" duration-ms="289" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lacuesta]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FinishButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:26 SGT" name="teardown" finished-at="2023-10-08T22:00:26 SGT" duration-ms="94" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:26 SGT" name="setup" finished-at="2023-10-08T22:00:27 SGT" duration-ms="1141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:27 SGT" name="loginpage" finished-at="2023-10-08T22:00:28 SGT" duration-ms="174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method signature="FinishButton(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:28 SGT" name="FinishButton" data-provider="CheckoutDataset" finished-at="2023-10-08T22:00:28 SGT" duration-ms="280" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Wilbert]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FinishButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@5fa05212]" started-at="2023-10-08T22:00:28 SGT" name="teardown" finished-at="2023-10-08T22:00:28 SGT" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.CheckoutPage@1d8e2eea]" started-at="2023-10-09T18:30:15 SGT" name="teardown" finished-at="2023-10-09T18:30:15 SGT" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestCase.CheckoutPage -->
+      <class name="TestCase.FilterPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:15 SGT" name="setup" finished-at="2023-10-09T18:30:16 SGT" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:16 SGT" name="loginpage" finished-at="2023-10-09T18:30:16 SGT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="DescendingPrice()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:16 SGT" name="DescendingPrice" finished-at="2023-10-09T18:30:17 SGT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DescendingPrice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:17 SGT" name="teardown" finished-at="2023-10-09T18:30:17 SGT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:17 SGT" name="setup" finished-at="2023-10-09T18:30:18 SGT" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:18 SGT" name="loginpage" finished-at="2023-10-09T18:30:18 SGT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="ascendingPrice()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:18 SGT" name="ascendingPrice" finished-at="2023-10-09T18:30:18 SGT" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ascendingPrice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:18 SGT" name="teardown" finished-at="2023-10-09T18:30:18 SGT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:18 SGT" name="setup" finished-at="2023-10-09T18:30:19 SGT" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:19 SGT" name="loginpage" finished-at="2023-10-09T18:30:20 SGT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="sortAtoZ()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:20 SGT" name="sortAtoZ" finished-at="2023-10-09T18:30:20 SGT" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAtoZ -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:20 SGT" name="teardown" finished-at="2023-10-09T18:30:20 SGT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:20 SGT" name="setup" finished-at="2023-10-09T18:30:21 SGT" duration-ms="996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginpage()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:21 SGT" name="loginpage" finished-at="2023-10-09T18:30:21 SGT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method signature="sortZtoA()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:21 SGT" name="sortZtoA" finished-at="2023-10-09T18:30:21 SGT" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortZtoA -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.FilterPage@253c1256]" started-at="2023-10-09T18:30:21 SGT" name="teardown" finished-at="2023-10-09T18:30:21 SGT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.FilterPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,4 +1,6 @@
 package TestCase;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -87,8 +89,8 @@ public class CheckoutPage extends BaseTest {
 	
 	
 	
-	@Test(dataProvider = "CheckoutDataset", dataProviderClass = CheckoutDataSet.class)
-	public void FinishButton(String fname, String lname, String zipcode){
+	@Test()
+	public void FinishButton(){
 		
 		CheckoutObjects checkout = new  CheckoutObjects(driver);
 		
@@ -153,6 +155,47 @@ public class CheckoutPage extends BaseTest {
 		String actualTitle = checkout.ProductTitle();
 	    Assert.assertEquals(actualTitle, "Products", "Title is not as expected");
 	
+	}
+	
+	
+
+															/// -TEST CASE SCENARIO 9: BACK HOME BUTTON BUTTON--///
+															/// --VERIFY BACKHOME BUTTON FUNCTIONALITY--///
+
+	@Test()
+	public void BackHome() {
+
+		CheckoutObjects checkout = new  CheckoutObjects(driver);
+
+		//click shopping cart
+		checkout.ShoppingCart();
+		
+		//click check out button
+		checkout.btnCheckout();
+		
+		//insert data on Firstname field
+		checkout.Firstname("Wilbert");
+		
+		//insert data on Lastname field
+		checkout.LastName("Legaspi");
+		
+		//insert data on PostalCode field
+		checkout.PostalCode("Lacuesta");
+		
+		//Click Continue Button
+		checkout.btnContinue();
+		
+		//CLick Finish Button
+		checkout.btnFinish();
+
+		// click backhome
+		checkout.btnBackHome();
+
+		String actualtitle = checkout.ProductTitle();
+		String expectedtitle = "Products";
+
+		Assert.assertEquals(actualtitle, expectedtitle, "Page NOT FOUND");
+
 	}
 
 }

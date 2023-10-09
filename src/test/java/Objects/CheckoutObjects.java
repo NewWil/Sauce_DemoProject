@@ -43,6 +43,11 @@ public class CheckoutObjects {
 	//Product Page title
 	By ProductTitle = By.xpath("//span[contains(text(), 'Products')]");
 	
+	//Finish Button
+	By btnBackHome = By.id("back-to-products");
+	
+	
+	
 	public CheckoutObjects(WebDriver driver){
 		this.driver = driver;
 	}
@@ -97,6 +102,12 @@ public class CheckoutObjects {
 	public String ProductTitle() {
 		return driver.findElement(ProductTitle).getText();
 	}
+	
+	public void btnBackHome() {
+		driver.findElement(btnBackHome).click();
+	}
+	
+
 	
 }
 	

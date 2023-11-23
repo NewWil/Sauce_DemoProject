@@ -1,42 +1,37 @@
 package Objects;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class AddtoCartObject {
+	
 	WebDriver driver;
 	
-	//Add to cart Button
-	By AddtoCartButton = By.xpath("//button[@class='btn btn_primary btn_small btn_inventory']");
-	
-	//Shopping Cart
-	By ShoppingCart = By.id("shopping_cart_container");
-	
-	//List of Item added on the cart
-	//By ListItem = By.xpath("//div[@class='inventory_item_name']");
-	
-	//Remove Button
-	By RemoveButton = By.xpath("//button[@class='btn btn_secondary btn_small cart_button']");
 	
 	public AddtoCartObject(WebDriver driver){
 		this.driver = driver;
 	}
 	
-	
-	public void AddtoCartButton() {
-		driver.findElement(AddtoCartButton).click();
-	}
+	//Shopping cart Id
+	By ShoppingCartContainer = By.id("shopping_cart_container");
 	
 	public void ShoppingCart() {
-		driver.findElement(ShoppingCart).click();
+		driver.findElement(ShoppingCartContainer).click();
+	}
+	
+	//Click Multiple Add to cart 
+	
+	By addtocart = By.xpath("//button[@class='btn btn_primary btn_small btn_inventory ']");
+	
+	//Continue shopping button
+	
+	By btnContinueShopping = By.id("continue-shopping");
+	public void btnContinueShopping() {
+		driver.findElement(btnContinueShopping).click();
 	}
 	
 	
-	public void Removebutton() {
-		driver.findElement(RemoveButton).click();
-	}
-	
-	/*public String ListItem() {
-		return driver.findElement(ListItem).getText();
-*/	//}
 }

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCase.AddtoCartPage">
+      <class name="TestCase.LoginPageVerify">
         <methods>
           <include name="setup"/>
+          <include name="LoginVerify"/>
           <include name="teardown"/>
-          <include name="loginpage"/>
-          <include name="Addtocart"/>
         </methods>
-      </class> <!-- TestCase.AddtoCartPage -->
+      </class> <!-- TestCase.LoginPageVerify -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
